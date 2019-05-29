@@ -50,3 +50,5 @@
     -  eg: `netstat -a`
 - 常用选项 参数 `-t` 用于仅显示与TCP协议相关的网络统计信息
     -  `netstat -t`
+- 根据端口号查看看进程号：
+    - `sudo netstat -tunlp|grep 8085`
