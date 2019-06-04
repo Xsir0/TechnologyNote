@@ -1,19 +1,17 @@
 {
-    "attachment_folder": "_v_attachments",
-    "created_time": "2019-05-02T09:50:11Z",
+    "created_time": "2019-06-02T00:44:18Z",
     "files": [
     ],
-    "image_folder": "",
-    "recycle_bin_folder": "_v_recycle_bin",
     "sub_directories": [
+        {
+            "name": "尼采的锤子"
+        },
         {
             "name": "重读笑来"
         },
         {
-            "name": "尼采的锤子"
+            "name": "技能型"
         }
-    ],
-    "tags": [
     ],
     "version": "1"
 }
