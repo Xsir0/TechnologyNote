@@ -5,6 +5,8 @@
 - 启动单个 
 
   `docker run ubuntu echo 'hello world'`
+  
+  `docker run --name webserver -d -p 80:80 nginx  启动后后台运行` 
 
 - 启动交互式容器
 
@@ -29,5 +31,8 @@
 #### 5. 删除停止的容器
 
 -  `docker rm containerNAME`(只能删除已经停止的容器)
+
+#### 6.进入镜像
+- `docker exec -it 镜像Id或镜像name /bin/bash`
 
   
