@@ -35,4 +35,7 @@
 #### 6.进入镜像
 - `docker exec -it 镜像Id或镜像name /bin/bash`
 
+#### 7.拷贝文件
+- 宿主机到容器： `docker cp <source file> <containerID or name>:<destination path>`
+
   
