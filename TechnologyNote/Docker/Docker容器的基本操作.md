@@ -38,4 +38,7 @@
 #### 7.拷贝文件
 - 宿主机到容器： `docker cp <source file> <containerID or name>:<destination path>`
 
+#### 8.提交镜像
+- `docker commit -a "wangshibo" -m "this is test" 651a8541a47d myubuntu:v1`
+- `docker commit -a "<author> -m "<commit>" <image id> <containername>:<version>`
   
